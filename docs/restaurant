@@ -1,0 +1,467 @@
+<html>
+<head>
+	<style>
+	* 
+	{
+		box-sizing: border-box;
+	}
+
+	body
+	{
+  		font-family:Comic Sans MS, Comic Sans, cursive;
+  		padding: 10px;
+  		background:#ccffb3;
+	}
+
+	ol
+	{
+		color:#003300;
+		font-size:1.3em
+	}
+
+	ul
+	{
+		color:#003366;
+		font-size:0.8em
+	}
+
+	.food
+	{
+		color:#003300;
+	}
+
+	.list
+	{
+ 	 	overflow: hidden;
+  		background-color:#003300;
+	}
+	.list a
+	{
+  		float:left;
+ 	 	display:block;
+  		color:white;
+  		text-align:center;
+ 	 	padding:14px 16px;
+  		text-decoration:none;
+	}
+	.list a:hover 
+	{
+  		background-color:#ffff99;
+  		color:#003300;
+	}
+
+	.content
+	{   
+  		float:left;
+  		width:75%;
+  		color:#339966;
+  		background-color:#ffff99;
+	}
+
+	.right 
+	{
+  		float: left;
+ 		 width: 25%;
+ 		 background-color: #f1f1f1;
+ 		 padding-left: 20px;
+	}	
+	</style>
+</head>
+<body>
+<div class="food">
+	<img
+	src=" https://esdg.ntpu.edu.tw/wp-content/uploads/2020/07/NTPU-LOGO-3D.png"
+	width="50"
+	height="40" 
+	align="left"
+	>
+  <h1><i>NTPU Food</i></h1>
+  <p>What do you want to eat?</p>
+</div>
+
+<div class="list">
+<h7 id="list"></h7>
+  <a href="#brunch">Brunch</a>&nbsp;
+  <a href="#meal">Meal</a>&nbsp;
+  <a href="#dessert">Dessert</a>&nbsp;
+  <a href="#midnight">Midnight Snack</a>
+</div>
+
+<div class="right">
+      <h2>About Me</h2>
+      <img
+		src="cat.jpg"
+		width="40"
+		height="40" 
+		>
+      <p>電機一 王俞蓁</p>
+</div>
+
+<div class="content">
+		<h2 id="brunch"><i>Brunch</i>
+		<img
+		src=" https://static.thenounproject.com/png/4020747-200.png"
+		width="30"
+		height="30" 
+		></h2>
+		<ol>
+    	<li>早安美芝城</li>
+      		<ul>
+      			<li>Time:6:00 ~ 13:30</li>
+      			<li>Star:3.4★</li>
+      			<li>Telephone Number:02-8672-5510</li>
+      		</ul>
+      	<li>找點·早點</li>
+      		<ul>
+      			<li>Time:7:30 ~ 13:00</li>
+      			<li>Star:4.0★</li>
+      			<li>Telephone Number:02-8674-2050</li>
+      		</ul>
+      	<li>蕉丫吐司</li>
+      		<ul>
+      			<li>Time:8:00 ~ 14:00</li>
+      			<li>Star:4.5★</li>
+      			<li>Telephone Number:02-8671-7180</li>
+      		</ul>
+      	<li>Rooster Burger&Cafe</li>
+     	 	<ul>
+      			<li>Time:8:00 ~ 15:30</li>
+      			<li>Star:3.8★</li>
+      			<li>Telephone Number:02-8671-8338</li>
+      		</ul>
+      	<li>大口吃飯糰</li>
+      		<ul>
+      			<li>Time:6:30 ~ 14:00</li>
+      			<li>Star:4.5★</li>
+      			<li>Telephone Number:0963-371-437</li>
+      		</ul>
+      	<li>布咯漢堡</li>
+      		<ul>
+      			<li>Time:6:30 ~ 13:30</li>
+      			<li>Star:4.0★</li>
+      			<li>Telephone Number:02-8671-6826</li>
+      		</ul>
+      	<li>在心蛋餅舖</li>
+      		<ul>
+      			<li>Time:7:00 ~ 13:30</li>
+      			<li>Star:4.6★</li>
+      		</ul>
+      	<li>杰哥蛋餅</li>
+      		<ul>
+      			<li>Time:6:00 ~ 14:00</li>
+      			<li>Star:3.7★</li>
+      			<li>Telephone Number:02-2672-9559/li>
+      		</ul>
+      	<li>峽客早午餐</li>
+     	 	<ul>
+      			<li>Time:6:00 ~ 13:00</li>
+      			<li>Star:4.2★</li>
+      			<li>Telephone Number:02-8672-3536</li>
+      		</ul>
+      	<li>添財號碳烤三明治</li>
+      		<ul>
+      			<li>Time:8:00 ~ 13:30</li>
+      			<li>Star:4.2★</li>
+      			<li>Telephone Number:02-8671-8672</li>
+      		</ul>
+      	<li>JODO 飯糰咖啡手做專門店</li>
+      		<ul>
+      			<li>Time:8:30 ~ 20:00</li>
+      			<li>Star:4.5★</li>
+      			<li>Telephone Number:02-8671-0815</li>
+      		</ul>
+      	</ol>
+      	<a href="#list">Top</a>
+
+
+      	<hr>
+      	<h2 id="meal"><i>Meal</i>
+      	<img
+		src="https://static.thenounproject.com/png/3145018-200.png"
+		width="40"
+		height="40" 
+		></h2>
+		<ol>
+      	<li>青原拉麵丼飯</li>
+      		<ul>
+      			<li>Time:11:30~14:00/17:00~20:30</li>
+      			<li>Star:4.2★</li>
+      			<li>Telephone Number:02-2671-5688</li>
+      		</ul>
+      	<li>OH! SUGAR</li>
+      		<ul>
+      			<li>Time:11:30~14:00/17:00~20:00</li>
+      			<li>Star:4.4★</li>
+      			<li>Telephone Number:0905-978-029</li>
+      		</ul>
+      	<li>SUKIYA</li>
+      		<ul>
+      			<li>Time:10:00~23:00</li>
+      			<li>Star:4.0★</li>
+      			<li>Telephone Number:02-2542-2828</li>
+      		</ul>
+      	<li>Ti Jo Kitchen</li>
+     	 	<ul>
+      			<li>Time:11:30~14:30/17:00~20:30</li>
+      			<li>Star:4.4★</li>
+      			<li>Telephone Number:02-8672-5116</li>
+      		</ul>
+      	<li>凡提斯義式料理</li>
+      		<ul>
+      			<li>Time:12:00~15:30/17:30~17:30</li>
+      			<li>Star:4.0★</li>
+      			<li>Telephone Number:02-2671-8780</li>
+      		</ul>
+      	<li>小眼睛歐爸們韓式炸雞</li>
+      		<ul>
+      			<li>Time:11:30~14:30/17:00~20:30</li>
+      			<li>Star:4.3★</li>
+      			<li>Telephone Number:02-8672-5925</li>
+      		</ul>
+      	<li>川邊烤肉丼</li>
+      		<ul>
+      			<li>Time:11:00~14:00/17:00~20:00</li>
+      			<li>Star:3.8★</li>
+      			<li>Telephone Number:02-2672-9559/li>
+      		</ul>
+      	<li>台南豪哥牛肉湯</li>
+     	 	<ul>
+      			<li>Time:11:00~22:00</li>
+      			<li>Star:3.4★</li>
+      			<li>Telephone Number:02-8672-0386</li>
+      		</ul>
+      	<li>西貢餐廳</li>
+      		<ul>
+      			<li>Time:11:00~21:00</li>
+      			<li>Star:4.3★</li>
+      			<li>Telephone Number:02-2668-1188</li>
+      		</ul>
+      	<li>甘泉魚麵</li>
+      		<ul>
+      			<li>Time:11:00~20:30</li>
+      			<li>Star:3.8★</li>
+      			<li>Telephone Number:02-3501-2898</li>
+      		</ul>
+      	<li>御炸坊</li>
+      		<ul>
+      			<li>Time:11:00~13:30/17:00~21:00</li>
+      			<li>Star:3.3★</li>
+      			<li>Telephone Number:02-3501-2776/li>
+      		</ul>
+      	<li>築間幸福鍋物</li>
+      		<ul>
+      			<li>Time:11:00~16:00</li>
+      			<li>Star:3.9★</li>
+      			<li>Telephone Number:02-2672-2226</li>
+      		</ul>
+      	<li>8鍋臭臭鍋</li>
+      		<ul>
+      			<li>Time:11:30~14:00/17:00~20:30</li>
+      			<li>Star:4.2★</li>
+      			<li>Telephone Number:02-2671-5688</li>
+      		</ul>
+      	<li>Bello Pasta</li>
+      		<ul>
+      			<li>Time:11:30~14:00/17:00~20:00</li>
+      			<li>Star:4.4★</li>
+      			<li>Telephone Number:0905-978-029</li>
+      		</ul>
+      	<li>NENE CHICKEN</li>
+      		<ul>
+      			<li>Time:10:00~23:00</li>
+      			<li>Star:4.0★</li>
+      			<li>Telephone Number:02-2542-2828</li>
+      		</ul>
+      	<li>YCHY 拾味</li>
+     	 	<ul>
+      			<li>Time:11:30~14:30/17:00~20:30</li>
+      			<li>Star:4.4★</li>
+      			<li>Telephone Number:02-8672-5116</li>
+      		</ul>
+      	<li>SUBWAY</li>
+      		<ul>
+      			<li>Time:12:00~15:30/17:30~17:30</li>
+      			<li>Star:4.0★</li>
+      			<li>Telephone Number:02-2671-8780</li>
+      		</ul>
+      	<li>六扇門</li>
+      		<ul>
+      			<li>Time:11:30~14:30/17:00~20:30</li>
+      			<li>Star:4.3★</li>
+      			<li>Telephone Number:02-8672-5925</li>
+      		</ul>
+      	<li>古都燒肉飯</li>
+      		<ul>
+      			<li>Time:11:00~14:00/17:00~20:00</li>
+      			<li>Star:3.8★</li>
+      			<li>Telephone Number:02-2672-9559/li>
+      		</ul>
+      	<li>巧禾食堂</li>
+     	 	<ul>
+      			<li>Time:11:00~22:00</li>
+      			<li>Star:3.4★</li>
+      			<li>Telephone Number:02-8672-0386</li>
+      		</ul>
+      	<li>玄拉麵</li>
+      		<ul>
+      			<li>Time:11:00~21:00</li>
+      			<li>Star:4.3★</li>
+      			<li>Telephone Number:02-2668-1188</li>
+      		</ul>
+      	<li>蘇記水餃</li>
+      		<ul>
+      			<li>Time:11:00~20:30</li>
+      			<li>Star:3.8★</li>
+      			<li>Telephone Number:02-3501-2898</li>
+      		</ul>
+      	</ol>
+      	<a href="#list">Top</a>
+
+
+      	<hr>
+      	<h2 id="dessert"><i>Dessert</i>
+      	<img
+		src="https://static.thenounproject.com/png/3051325-200.png"
+		width="35"
+		height="35" 
+		></h2>
+      	<ol>
+      	<li>PINEDE彼内朵</li>
+      		<ul>
+      			<li>Time:6:00 ~ 13:30</li>
+      			<li>Star:3.4★</li>
+      			<li>Telephone Number:02-8672-5510</li>
+      		</ul>
+      	<li>SWEET DAILY 甜日子</li>
+      		<ul>
+      			<li>Time:7:30 ~ 13:00</li>
+      			<li>Star:4.0★</li>
+      			<li>Telephone Number:02-8674-2050</li>
+      		</ul>
+      	<li>三峽冰鎮</li>
+      		<ul>
+      			<li>Time:8:00 ~ 14:00</li>
+      			<li>Star:4.5★</li>
+      			<li>Telephone Number:02-8671-7180</li>
+      		</ul>
+      	<li>外婆的茶屋</li>
+     	 	<ul>
+      			<li>Time:8:00 ~ 15:30</li>
+      			<li>Star:3.8★</li>
+      			<li>Telephone Number:02-8671-8338</li>
+      		</ul>
+      	<li>陳Q黑糖剉冰</li>
+      		<ul>
+      			<li>Time:6:30 ~ 14:00</li>
+      			<li>Star:4.5★</li>
+      			<li>Telephone Number:0963-371-437</li>
+      		</ul>
+      	<li>鴉片粉圓</li>
+      		<ul>
+      			<li>Time:6:30 ~ 13:30</li>
+      			<li>Star:4.0★</li>
+      			<li>Telephone Number:02-8671-6826</li>
+      		</ul>
+      	<li>Sugarist</li>
+      		<ul>
+      			<li>Time:7:00 ~ 13:30</li>
+      			<li>Star:4.6★</li>
+      		</ul>
+      	<li>艾波索 Aposo</li>
+      		<ul>
+      			<li>Time:6:00 ~ 14:00</li>
+      			<li>Star:3.7★</li>
+      			<li>Telephone Number:02-2672-9559/li>
+      		</ul>
+      	<li>甜舖子 Gloria</li>
+     	 	<ul>
+      			<li>Time:6:00 ~ 13:00</li>
+      			<li>Star:4.2★</li>
+      			<li>Telephone Number:02-8672-3536</li>
+      		</ul>
+      	<li>阿默蛋糕</li>
+      		<ul>
+      			<li>Time:8:00 ~ 13:30</li>
+      			<li>Star:4.2★</li>
+      			<li>Telephone Number:02-8671-8672</li>
+      		</ul>
+      	<li>口水喬</li>
+      		<ul>
+      			<li>Time:8:30 ~ 20:00</li>
+      			<li>Star:4.5★</li>
+      			<li>Telephone Number:02-8671-0815</li>
+      		</ul>
+      	<li>山泉水手工豆花</li>
+      		<ul>
+      			<li>Time:8:30 ~ 20:00</li>
+      			<li>Star:4.5★</li>
+      			<li>Telephone Number:02-8671-0815</li>
+      		</ul>
+       	<li>禾乃川國產豆製所</li>
+      		<ul>
+      			<li>Time:8:30 ~ 20:00</li>
+      			<li>Star:4.5★</li>
+      			<li>Telephone Number:02-8671-0815</li>
+      		</ul>
+      	</ol>
+      	
+      	<a href="#list">Top</a>
+
+
+      	<hr>
+      	<h2 id="midnight"><i>Midnight Snack</i>
+      	<img
+		src="https://static.thenounproject.com/png/4359179-200.png"
+		width="40"
+		height="40" 
+		></h2>
+      		<ol>
+      	<li>北大密酥雞排</li>
+      		<ul>
+      			<li>Time:6:00 ~ 13:30</li>
+      			<li>Star:3.4★</li>
+      			<li>Telephone Number:02-8672-5510</li>
+      		</ul>
+      	<li>永和豆漿</li>
+      		<ul>
+      			<li>Time:7:30 ~ 13:00</li>
+      			<li>Star:4.0★</li>
+      			<li>Telephone Number:02-8674-2050</li>
+      		</ul>
+      	<li>阿朗鹹酥雞</li>
+      		<ul>
+      			<li>Time:8:00 ~ 14:00</li>
+      			<li>Star:4.5★</li>
+      			<li>Telephone Number:02-8671-7180</li>
+      		</ul>
+      	<li>皇品滷味</li>
+     	 	<ul>
+      			<li>Time:8:00 ~ 15:30</li>
+      			<li>Star:3.8★</li>
+      			<li>Telephone Number:02-8671-8338</li>
+      		</ul>
+      	<li>吳霸雞排</li>
+      		<ul>
+      			<li>Time:6:30 ~ 14:00</li>
+      			<li>Star:4.5★</li>
+      			<li>Telephone Number:0963-371-437</li>
+      		</ul>
+      	<li>陸海空碳烤</li>
+      		<ul>
+      			<li>Time:6:30 ~ 13:30</li>
+      			<li>Star:4.0★</li>
+      			<li>Telephone Number:02-8671-6826</li>
+      		</ul>
+        <li>燒鳥串道</li>
+      		<ul>
+      			<li>Time:6:00 ~ 14:00</li>
+      			<li>Star:3.7★</li>
+      			<li>Telephone Number:02-2672-9559/li>
+      		</ul>
+      	
+      	</ol>
+      	<a href="#list">Top</a>
+</div>
+
+</body>
+</html>
