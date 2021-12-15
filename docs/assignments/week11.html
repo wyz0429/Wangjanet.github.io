@@ -1,0 +1,58 @@
+<html>
+<style>
+.div1
+{
+  position:relative;
+  border:5px solid #99ccff;
+  width:300px;
+  height:300px;
+  left:10px;
+  top:0px;
+}
+.div2 {
+  position:absolute;
+  border:5px solid #001a33;
+  top:0px;
+  left:100px;
+  height:100px;
+  background-color:#0066cc;
+}
+.div3
+{
+	position: fixed;
+  border: 5px solid #001a33;
+  background-color:rgb(153, 255, 153);  
+  width:300px;
+  height:200px;
+  bottom:20%;
+  left:30%;
+}
+.div4
+{
+	position:sticky;
+  border:5px solid rgb(153, 255, 153);
+  top: 0px;
+  background-color:white;
+  width:95%;
+  margin:auto;
+}
+.word
+{
+	color: white;
+}
+</style>
+<body>
+	<div class="div4">
+		<p>sticky div</p>
+	</div>
+	<div class="div1">
+		<p>relative div</p>
+			<div class="div2">
+				<p class="word">absolute div</p>
+			</div>
+	</div>
+	<div class="div3">
+		<p>fixed div</p>
+	</div>
+</body>
+</html>
