@@ -10,7 +10,7 @@
 	{
   		font-family:Comic Sans MS, Comic Sans, cursive;
   		padding: 10px;
-  		background:#ccffb3;
+  		background:rgb(235, 235, 224);
 	}
 
 	ol
@@ -32,8 +32,9 @@
 
 	.list
 	{
+ 	 	border-radius: 10px;
  	 	overflow: hidden;
-  		background-color:#003300;
+  	background-color:#001a00;
 	}
 	.list a
 	{
@@ -52,19 +53,43 @@
 
 	.content
 	{   
+  		border-style:dotted;
+  		border-radius: 10px;
   		float:left;
   		width:75%;
-  		color:#339966;
-  		background-color:#ffff99;
+  		color:#001a00;
+  		background-color: #ffffff;
 	}
+
 
 	.right 
 	{
+  		border-radius: 10px;
   		float: right;
  		 width: 25%;
  		 background-color:#f1f1f1;
  		 padding-left: 20px;
 	}	
+
+	img:hover {opacity: 0.7;}
+
+	.flex {display: flex;
+				border-radius: 5px;
+				margin: 5px;
+        padding: 0.5px;
+        background-color: #f1f1f1;
+        flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-items: center;}
+ .flex a{
+ 	border-radius: 5px;
+  background-color: #f1f1f1;
+  margin: 5px;
+  padding: 0.5px;
+  font-size: 30px;
+  height: 15px;
+}
 	</style>
 </head>
 <body>
@@ -89,21 +114,26 @@
 
 <div class="right">
       <h2>電機一 王俞蓁</h2>
+      <a href="cat.jpg" target="_blank">
       <img
 	src="cat.jpg"
 	width="150"
 	height="150" 
 	>
+</a>
 	<p></p>
 </div>
 
 <div class="content">
-		<h2 id="brunch"><i>Brunch</i>
-		<img
-		src=" https://static.thenounproject.com/png/4020747-200.png"
+	<div class="flex">
+		<h2 id="brunch"><i>/ Brunch /</i>
+		<img 
+		src="https://static.thenounproject.com/png/4020747-200.png"
 		width="30"
 		height="30" 
-		></h2>
+		>
+		</h2>
+	</div>
 		<ol>
 	<li><a href=https://goo.gl/maps/bNExxtyZVNZjNfAY9 target=“_blank”>早安美芝城</a></li>
       		<ul>
@@ -174,13 +204,13 @@
       	<a href="#list">Top</a>
 
 
-      	<hr>
-      	<h2 id="meal"><i>Meal</i>
+      	<hr><div class="flex">
+      	<h2 id="meal"><i>/ Meal /</i>
       	<img
 		src="https://static.thenounproject.com/png/3145018-200.png"
 		width="40"
 		height="40" 
-		></h2>
+		></h2></div>
 		<ol>
       	<li><u>青原拉麵丼飯</u></li>
       		<ul>
@@ -313,12 +343,13 @@
 
 
       	<hr>
-      	<h2 id="dessert"><i>Dessert</i>
+      	<div class="flex">
+      	<h2 id="dessert"><i>/ Dessert /</i>
       	<img
 		src="https://static.thenounproject.com/png/3051325-200.png"
 		width="35"
 		height="35" 
-		></h2>
+		></h2></div>
       	<ol>
       	<li><u>PINEDE彼内朵</u></li>
       		<ul>
@@ -392,12 +423,13 @@
 
 
       	<hr>
-      	<h2 id="midnight"><i>Midnight Snack</i>
+      	<div class="flex">
+      	<h2 id="midnight"><i>/ Midnight Snack /</i>
       	<img
 		src="https://static.thenounproject.com/png/4359179-200.png"
 		width="40"
 		height="40" 
-		></h2>
+		></h2></div>
       		<ol>
       	<li><u>北大蜜酥雞排</u></li>
       		<ul>
